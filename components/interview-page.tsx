@@ -12,7 +12,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
 
 export default function InterviewPage() {
-  const [jobTitle, setJobTitle] = useState("Customer Success Manager");
+  const [jobTitle, setJobTitle] = useState("");
   const [inputError, setInputError] = useState<string | null>(null);
   const interviewMutation = useInterviewQuestions();
 
